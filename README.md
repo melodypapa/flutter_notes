@@ -12,24 +12,28 @@
 * Exception
   * To simply test that an unspecific exception is raised
 
-```dart
+``` dart
     expect(() => range(5, 5), throwsException);
 ```    
 
   * To test that the right type of exception is raised:
 
-```dart
+``` dart
     expect(() => range(5, 2), throwsA(TypeMatcher<IndexError>()));
 ```
 
   * To ensure that no exception is raised:
 
+``` dart
     expect(() => range(5, 10), returnsNormally);
+```    
 
   * To test the exception type and exception message:
 
+``` dart
     expect(() => range(5, 3), 
     throwsA(predicate((e) => e is ArgumentError && e.message == 'start must be less than stop')));
+```
 
   * Refer to [stack overflow](https://stackoverflow.com/questions/13298969/how-do-you-unittest-exceptions-in-dart) for more information.
 
