@@ -4,6 +4,6 @@
 
 ### Userful Tips
 
-- [Test](https://github.com/melodypapa/flutter_notes/packages/Test.md)
-- [Mockito](https://github.com/melodypapa/flutter_notes/packages/Mockito.md)
-- [Equatable](https://github.com/melodypapa/flutter_notes/packages/Equatable.md)
+- [Test](https://github.com/melodypapa/flutter_notes/blob/master/packages/Test.md)
+- [Mockito](https://github.com/melodypapa/flutter_notes/blob/master/packages/Mockito.md)
+- [Equatable](https://github.com/melodypapa/flutter_notes/blob/master/packages/Equatable.md)
