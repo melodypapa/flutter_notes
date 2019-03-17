@@ -1,5 +1,5 @@
 # flutter_notes
-[TOC]
+
 ## flutter packages
 
 ### Userful Tips
