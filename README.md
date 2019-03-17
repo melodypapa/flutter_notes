@@ -12,11 +12,15 @@
 * Exception
   * To simply test that an unspecific exception is raised
 
+```dart
     expect(() => range(5, 5), throwsException);
+```    
 
   * To test that the right type of exception is raised:
 
+```dart
     expect(() => range(5, 2), throwsA(TypeMatcher<IndexError>()));
+```
 
   * To ensure that no exception is raised:
 
